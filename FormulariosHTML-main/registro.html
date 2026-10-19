@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="img/steam.png" type="image/x-icon">
+</head>
+<body>
+    
+    <main>
+        <section>
+            <fieldset>
+                <legend>Crear cuenta</legend>
+
+                <label for="">Nombre completo</label>
+                <input type="text" placeholder="Juana perez" required>
+
+                <label for="">Genero</label>
+                <div class="grupo-radios">
+                    <label for="">Femenino</label>
+                    <input type="radio" value="Femenino">
+
+                    <label for="">Masculino</label>
+                    <input type="radio" value="Masculino">
+                    <label for="">Otro</label>
+                    <input type="radio" value="Otro">
+                </div>
+
+                <label for="">Foto de perfil</label>
+                <input type="file" accept="image/*">
+
+                <label for="">Correo Electronico</label>
+                <input type="email" placeholder="correo@ejemplo.com" required>
+
+                <label for="">Numero de telefono</label>
+                <input type="number" placeholder="+1 234 567 8900">
+
+                <label for="">Pais</label>
+                <select name="" id="">
+                    <option value="">Selecciona tu pais</option>
+                    <option value="ar">Argentina</option>
+                    <option value="es">España</option>
+                    <option value="co">Colombia</option>
+                    <option value="mx">Mexico</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="">Contraseña</label>
+                <input type="password" placeholder="********" required>
+
+                <label for="">Acepto los terminos y condiciones</label>
+                <input type="checkbox" required>
+
+                <label for="">Deseo recibir noticias al correo</label>
+                <input type="checkbox">
+
+                <input type="submit" value="Registrarme">
+                <input type="reset" value="Limpiar">
+
+                <p class="enlace">¿Ya tienes una cuenta? <a href="login.html">. Inicia sesion aqui</a></p>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>
